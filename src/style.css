@@ -1,6 +1,9 @@
 @font-face {
   font-family: "Poppins";
-  src: url("./font/Poppins-Regular.ttf") format("ttf");
+  src: url("./font/Poppins-Regular.woff") format("woff"),
+    url("./font/Poppins-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -12,5 +15,37 @@ body {
   width: 100vw;
   height: 100vh;
   overflow-y: scroll;
-  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  font-family: "Poppins";
+}
+
+header {
+  background-color: #212121;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  width: 80%;
+  background-color: #313131;
+  position: sticky;
+  z-index: 99;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 0.5rem;
+}
+
+.nav-button {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  background-color: transparent;
+}
+
+.nav-button:hover {
+  border-bottom: 1px solid white;
 }
