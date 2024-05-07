@@ -1,5 +1,6 @@
 import "./style.css";
 import Logo from "./images/logo1.png";
+import background from "./images/janko-ferlic-h9Iq22JJlGk-unsplash.jpg";
 import home from "./home";
 import menu from "./menu";
 import about from "./about";
@@ -14,6 +15,7 @@ function Header() {
   const content = document.getElementById("content");
   const navButton = document.querySelectorAll(".nav-button");
   const myLogo = new Image();
+  const myBackground = new Image();
 
   navButton[0].addEventListener("click", () => loadContent(home()));
   navButton[1].addEventListener("click", () => loadContent(menu()));
@@ -26,6 +28,10 @@ function Header() {
       nav.classList.remove("sticky");
     }
   };
+
+  myBackground.src = background;
+  myBackground.classList.add("header-background");
+  header.insertBefore(myBackground, nav);
 
   myLogo.src = Logo;
   myLogo.classList.add("logo");
