@@ -207,7 +207,7 @@ nav.sticky {
 .home {
   font-family: "Poppins";
   color: white;
-  height: 100vh;
+  height: 130vh;
   width: 100%;
   padding: 1rem 2rem;
   background: url("./images/mike-kenneally-tNALoIZhqVM-unsplash.jpg");
@@ -217,7 +217,7 @@ nav.sticky {
 }
 
 .home > .left-side {
-  margin-top: 12vh;
+  margin-top: 30%;
   padding: 1rem;
 }
 
@@ -265,6 +265,15 @@ nav.sticky {
   width: 100%;
   background-color: #313131;
   padding: 1rem 2rem;
+  padding-top: 15%;
+  color: white;
+  font-family: "Poppins";
+}
+
+.menu-headline {
+  width: 100%;
+  text-align: center;
+  font-size: 2.3rem;
 }
 
 .about {
