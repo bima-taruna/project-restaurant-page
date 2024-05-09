@@ -9,6 +9,7 @@ export default function card(...params) {
     menuName.classList.add(".menu-name");
     newCard.classList.add("card");
     menuName.innerHTML = name;
+    orderButton.innerHTML = "Order Now";
     newCard.appendChild(appendImage());
     newCard.appendChild(menuName);
     newCard.appendChild(orderButton);

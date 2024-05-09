@@ -7,8 +7,9 @@ export default function menu() {
   const menuList = document.createElement("div");
   headline.classList.add("menu-headline");
   menuList.classList.add("menu-list");
-  menuSection.appendChild(menuList);
+  headline.innerHTML = "Menu";
   menuSection.appendChild(headline);
+  menuSection.appendChild(menuList);
   menuSection.classList.add("menu");
 
   // const menuList = document.querySelector(".menu-list");
