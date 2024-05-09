@@ -3,14 +3,15 @@ export default function card(...params) {
 
   function createCard() {
     const newCard = document.createElement("div");
+    const menuName = document.createElement("div");
+    const orderButton = document.createElement("button");
+    orderButton.classList.add("order-button");
+    menuName.classList.add(".menu-name");
     newCard.classList.add("card");
-
-    let content = `
-      <div class="menu-name">${name}</div>
-      <button class="order-button">Order Now</button>
-    `;
-    newCard.innerHTML = content;
+    menuName.innerHTML = name;
     newCard.appendChild(appendImage());
+    newCard.appendChild(menuName);
+    newCard.appendChild(orderButton);
     return newCard;
   }
 
