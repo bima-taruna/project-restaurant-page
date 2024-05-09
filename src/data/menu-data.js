@@ -1,14 +1,18 @@
-export default menuData = [
+import Latte from "../images/latte.jpg";
+import Cappucino from "../images/cappucino.jpg";
+import Americano from "../images/americano.jpg";
+
+export const data = [
   {
-    image: "./src/images/latte.jpg",
+    image: Latte,
     name: "Latte",
   },
   {
-    image: "./src/images/cappucino.jpg",
+    image: Cappucino,
     name: "Cappucino",
   },
   {
-    image: "./src/images/americano.jpg",
+    image: Americano,
     name: "Americano",
   },
 ];
