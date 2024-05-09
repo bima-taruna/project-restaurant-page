@@ -8,6 +8,7 @@ module.exports = {
     menu: "./src/menu.js",
     about: "./src/about.js",
     card: "./src/component/card.js",
+    menuData: "./src/data/menu-data.js",
   },
   plugins: [
     new HtmlWebpackPlugin({
