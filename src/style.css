@@ -236,9 +236,9 @@ nav.sticky {
 
 .order-button {
   padding: 1rem 1.5rem;
-  border: 1px white solid;
-  background-color: white;
-  color: black;
+  border: none;
+  background-color: #fd930b;
+  color: white;
   font-weight: bold;
   font-family: "Poppins";
   cursor: pointer;
@@ -304,14 +304,14 @@ nav.sticky {
   font-size: 1.5rem;
 }
 
-.order-button {
+.flex-order > .order-button {
   border: 1px white solid;
   background-color: transparent;
   border-radius: 0.5rem;
   color: #ffffff;
 }
 
-.order-button:hover {
+.flex-order > .order-button:hover {
   background-color: white;
   color: black;
 }
