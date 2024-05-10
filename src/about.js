@@ -5,7 +5,7 @@ export default function about() {
     <div class="contact-us">
       <input type="text" name="contact-us" id="contact-us" placeholder="Want to contact with us?">
       <button>Contact Us</button>
-    <div>
+    </div>
     <div class="about-us">
       <h4 class="about-headline">About Us</h4>
       <p class="about-content">
