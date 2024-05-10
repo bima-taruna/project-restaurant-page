@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkproject_restaurant_page=self.webpackChunkproject_restaurant_page||[]).push([[543],{859:(e,a,p)=>{p.d(a,{p:()=>n});const c=p.p+"1f4d5278a65cfa3f2ccf.jpg",f=p.p+"7c5e00f21e7afecee5b6.jpg",g=p.p+"1daddc3d83dacb0f3207.jpg",d=p.p+"2210feddcfe8d5c2923f.jpg",m=p.p+"199f2d1b5329ea3b1fc1.jpg",n=[{image:c,name:"Latte"},{image:f,name:"Cappucino"},{image:g,name:"Americano"},{image:d,name:"Doppio"},{image:p.p+"43b199d4e2419054d07f.jpg",name:"Machiato"},{image:m,name:"Espresso"}]}},e=>{e(e.s=859)}]);
+//# sourceMappingURL=data.bundle.js.map
